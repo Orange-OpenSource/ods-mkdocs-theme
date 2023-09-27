@@ -1,0 +1,56 @@
+site_name: Orange Design System MkDocs Theme
+site_url: https://github.com/Orange-OpenSource/ods-mkdocs-theme
+site_author: Orange
+site_description: "Orange Design System MkDocs Theme provides a MkDocs theme for Orange."
+repo_url: https://github.com/Orange-OpenSource/ods-mkdocs-theme
+copyright: "Orange Design System MkDocs Theme is licensed under the <a href='https://github.com/Orange-OpenSource/ods-mkdocs-theme/blob/main/LICENSE'>MIT license</a>"
+
+theme:
+  name: ods-mkdocs-theme
+
+plugins:
+  - search:
+      prebuild_index: true
+# Configuration of all Material MkDocs extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - codehilite
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  # - pymdownx.emoji:
+  #    emoji_index: !!python/name:materialx.emoji.twemoji
+  #    emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.escapeall
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables

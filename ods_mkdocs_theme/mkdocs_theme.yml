@@ -1,0 +1,13 @@
+extends: material
+
+favicon: assets/images/favicon.ico
+logo: assets/images/orange-logo.svg
+name: ods-mkdocs-theme
+font: false
+palette:
+  scheme: default
+features:
+  - content.code.copy
+  - navigation.tabs
+
+hljs_style: github
