@@ -1,0 +1,22 @@
+name: Report a bug
+description: Tell us about a bug or issue you may have identified in ODS MkDocs Theme.
+title: "Provide a general summary of the issue"
+labels: [bug]
+assignees: "-"
+body:
+  - type: checkboxes
+    attributes:
+      label: Prerequisites
+      description: Take a couple minutes to help our maintainers work faster.
+      options:
+        - label: I have [searched](https://github.com/Orange-OpenSource/ods-mkdocs-theme/issues?utf8=%E2%9C%93&q=is%3Aissue) for duplicate or closed issues
+          required: true
+        - label: I have read the [contributing guidelines](https://github.com/Orange-OpenSource/ods-mkdocs-theme/blob/main/.github/CONTRIBUTING.md)
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the issue
+      description: Provide a summary of the issue and what you expected to happen, including specific steps to reproduce.
+    validations:
+      required: true
