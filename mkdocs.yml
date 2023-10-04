@@ -9,8 +9,8 @@ theme:
   name: ods-mkdocs-theme
 
 plugins:
-  - search:
-      prebuild_index: true
+  - material/search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
 # Configuration of all Material MkDocs extensions
 markdown_extensions:
   - abbr
