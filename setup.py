@@ -9,7 +9,7 @@ setup(
   license='MIT',
   description='Orange Design System MkDocs Theme provides a MkDocs theme for Orange.',
   author='Orange',
-  author_email='loic.laussel@orange.com, julien.deramond@orange.com',
+  author_email='loic.laussel@orange.com',
   packages=find_packages(),
   include_package_data=True,
   install_requires=[
